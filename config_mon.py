@@ -136,7 +136,7 @@ def main():
         all_devices_hostnames = []
         for device in all_devices_info:
             if device['family'] == 'Switches and Hubs' or device['family'] == 'Routers':
-                if 'CSR1Kv' in device['hostname'] or 'NYC' in device['hostname']:
+                if IOS_XE_HOSTNAME in device['hostname']:
                     all_devices_hostnames.append(device['hostname'])
 
         # get the config files, compare with existing (if one existing). Save new config if file not existing.

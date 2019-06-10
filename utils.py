@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 
 # developed by Gabi Zapodeanu, TME, ENBU, Cisco Systems
