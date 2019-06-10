@@ -19,7 +19,7 @@ SNOW_URL = 'https://devXXXXX.service-now.com/api/now'  # replace XXXXX with the 
 SNOW_ADMIN = 'APIAPP'
 SNOW_DEV = 'APIAPP'
 SNOW_PASS = 'password'  # replace this with the provided password
-SNOW_INSTANCE = 'devXXXXX'  # replace XXXXX with the instance number provided
+
 
 # Update this section with the info for the CSR 1000V
 IOS_XE_HOST = '128.107.70.16X'  # replace X with the Pod number
