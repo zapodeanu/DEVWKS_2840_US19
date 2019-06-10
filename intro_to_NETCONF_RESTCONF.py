@@ -1,6 +1,6 @@
 
 
-# developed by Gabi Zapodeanu, TME, Enterprise Networks, Cisco
+# developed by Gabi Zapodeanu, TME, Enterprise Networking, Cisco Systems
 
 
 import requests
