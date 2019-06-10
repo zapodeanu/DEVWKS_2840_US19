@@ -55,4 +55,4 @@ This repo will showcase an use case of how to detect and mitigate unauthorized, 
    - Cisco Webex Teams account
    - ServiceNow developer account
  - The config.py is the only file needed to be customized to match your environment
- 
+
