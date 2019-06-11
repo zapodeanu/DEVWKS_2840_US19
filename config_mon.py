@@ -223,7 +223,7 @@ def main():
                         validation_comment = '\nPassed ACL Policy'
 
                     # logging changes
-                    if ('+logging' in diff) or ('+logging' in diff):
+                    if ('+logging' in diff) or ('-logging' in diff):
                         updated_comment = '\nValidation against logging changes failed'
                         service_now_apis.update_incident(incident, updated_comment, SNOW_DEV)
                         validation_result = 'Failed'
